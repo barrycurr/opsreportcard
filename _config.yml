@@ -16,6 +16,8 @@ repository: barrycurr/opsreportcard
 
 # Build settings
 theme: just-the-docs
+remote_theme: just-the-docs
+
 plugins:
   - jekyll-spaceship
   - jekyll-redirect-from
