@@ -15,7 +15,7 @@ github_username: barrycurr
 repository: barrycurr/opsreportcard
 
 # Build settings
-theme: "just-the-docs"
+theme: just-the-docs
 plugins:
   - jekyll-spaceship
   - jekyll-redirect-from
