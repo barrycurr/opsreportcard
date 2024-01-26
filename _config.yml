@@ -1,0 +1,149 @@
+# Jekyll Configuration
+
+title: The Operations Report Card
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The Ops Report Card is a list of 32 fundamental "best practices" or
+  "capabilities" that high performance sysadmin teams do.
+  Use it as a checklist to examine where your team needs improvement.
+
+# Github Page Settings
+domain: barrycurr.github.io
+url: https://barrycurr.github.io
+baseurl: /opsreportcard
+github_username: barrycurr
+repository: barrycurr/opsreportcard
+
+# Build settings
+theme: "just-the-docs"
+plugins:
+  - jekyll-spaceship
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-coffeescript
+  - jekyll-relative-links
+  - jekyll-gist
+  - jekyll-default-layout
+
+permalink: pretty
+
+exclude:
+  # Standard
+  - "*.gem"
+  - "*.gemspec"
+  - .babelrc
+  - .cache
+  - .github
+  - .jekyll-cache/
+  - .sass-cache/
+  - .vscode/
+  - CNAME
+  - CONTRIBUTING.md
+  - cssnano.config.js
+  - docker_compose.yml
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles/
+  - Makefile
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - vendor
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - webpack.config.js
+  - yarn.lock
+  - yarn-error.log
+  # Repo Specific
+  - media/
+  - docs/test/
+
+# Just The Docs cs_configuration
+
+logo: "/assets/images/logo.png"
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+# Aux links for the upper right navigation
+# aux_links:
+#   "Connect":
+#     - //{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}
+
+# Makes Aux links open in a new tab. Default is false
+# aux_links_new_tab: true
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+heading_anchors: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+jekyll-spaceship:
+  # default enabled processors
+  mermaid-processor:
+    # mode: "pre-fetch"  # mode value 'pre-fetch' for fetching image at building stage
+    # mode: pre-fetch
+    css:
+      class: mermaid
+    syntax:
+      code: "mermaid!"
+      custom: ["@startmermaid", "@endmermaid"]
+    config:
+      theme: default
+    src: https://mermaid.ink/svg/
+    # src: https://mermaid.ink/img/
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/barrycurr/opsreportcard" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
+
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
+
+relative_links:
+  enabled: true
+  collections: true

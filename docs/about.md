@@ -1,8 +1,19 @@
-# The Operations Report Card
+---
+layout: default
+title: About
+has_children: false
+nav_order: 2
+has_toc: false
+---
+
+{{ page.title }}
+{: .fs-7 }
+
+---
 
 This is a conversion of <https://www.opsreportcard.com/> to Markdown and uses Jekyll to generate a static site.
 
-In addition to the original site a [Contents/Score Card](/docs/contents.md) has been created to track progress, a template for the [Operations Document](docs/opsdoc/README.md) (as mentioned in [Does Each Service Have An Opsdoc?](docs/operational/opsdoc.md)) and single pages for the full [Operations Document](docs/opsrepcard_single.md) and [Operations Document Template](docs/opsdoc_single.md).
+In addition to the original site a [Contents/Score Card](/docs/contents.md) has been created to track progress, a template for the [Operations Document](/docs/opsdoc/README.md) (as mentioned in [Does Each Service Have An Opsdoc?](/docs/operational/opsdoc.md)) and single pages for the full [Operations Document](/docs/opsrepcard_single.md) and [Operations Document Template](/docs/opsdoc_single.md).
 
 ## Original Credits
 
