@@ -29,7 +29,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Extras
-gem "just-the-docs"
+# gem "just-the-docs"
 gem "jekyll-spaceship"
 gem "jekyll-redirect-from"
 gem "jekyll-github-metadata"
