@@ -15,35 +15,35 @@ A list of all the practices in order with an extra column so that you can record
 
 | Practice                                                                                                       | Status |
 |----------------------------------------------------------------------------------------------------------------|--------|
-| [Are User Requests Tracked Via A Ticket System?](/docs/public/tracking_user_requests.md)                         |        |
-| [Are "The 3 Empowering Policies" Defined And Published?](/docs/public/empowering_policies.md)                    |        |
-| [Does The Team Record Monthly Metrics?](/docs/public/recording_metrics.md)                                       |        |
-| [Do You Have A "Policy And Procedure" Wiki?](/docs/modern/polices_and_procedures.md)                             |        |
-| [Do You Have A Password Safe?](/docs/modern/password_safe.md)                                                    |        |
-| [Is Your Team's Code Kept In A Source Code Control System?](/docs/modern/source_code_control.md)                 |        |
-| [Does Your Team Use A Bug-Tracking System For Their Own Code?](/docs/modern/bug_tracking.md)                     |        |
-| [In Bugs/Tickets Does Stability Have A Higher Priority Than New Features?](/docs/modern/ticketing_priorities.md) |        |
-| [Does Your Team Write "Design Docs?"](/docs/modern/design_docs.md)                                               |        |
-| [Do You Have A "Post-Mortem" Process?](/docs/modern/post_mortem.md)                                              |        |
-| [Does Each Service Have An Opsdoc?](/docs/operational/opsdoc.md)                                                 |        |
-| [Does Each Service Have Appropriate Monitoring?](/docs/operational/monitoring.md)                                |        |
-| [Do You Have A Pager Rotation Schedule?](/docs/operational/pager_rotation.md)                                    |        |
-| [Do You Have Separate Development, Qa, And Production Systems?](/docs/operational/seperate_dev-qa-prod.md)       |        |
-| [Do Roll-Outs To Many Machines Have A "Canary Process?"](/docs/operational/canary_process.md)                    |        |
-| [Do You Use Configuration Management Tools Like Ansible/Puppet/Chef?](/docs/automation/config_management.md)     |        |
-| [Do Automated Administration Tasks Run Under Role Accounts?](/docs/automation/role_accounts.md)                  |        |
-| [Do Automated Processes That Generate E-Mail Have Something To Say?](/docs/automation/email_generation.md)       |        |
-| [Is There A Database Of All Machines?](/docs/fleet/database_of_machines.md)                                      |        |
-| [Is Os Installation Automated?](/docs/fleet/os_installations.md)                                                 |        |
-| [Can You Automatically Patch Software Across Your Entire Fleet?](/docs/fleet/patching.md)                        |        |
-| [Do You Have A Pc Refresh Policy?](/docs/fleet/pc_refresh_policy.md)                                             |        |
-| [Can Your Servers Keep Operating Even If 1 Disk Dies?](/docs/disaster_preperation/servers.md)                    |        |
-| [Is The Network Core N+1?](/docs/disaster_preperation/network.md)                                                |        |
-| [Are Your Backups Automated?](/docs/disaster_preperation/backups.md)                                             |        |
-| [Are Your Disaster Recovery Plans Tested Periodically?](/docs/disaster_preperation/testing.md)                   |        |
-| [Do Machines In Your Data Center Have Remote Power/Console Access?](/docs/disaster_preperation/remote_access.md) |        |
-| [Do all Machines Run Self-Updating, Silent, Anti-Malware Software?](/docs/security/antivirus.md)                 |        |
-| [Do You Have A Written Security Policy?](/docs/security/policy.md)                                               |        |
-| [Do You Submit To Periodic Security Audits?](/docs/security/audits.md)                                           |        |
-| [Can A User's Account Be Disabled On All Systems In 1 Hour?](/docs/security/disabling_users.md)                  |        |
-| [Can You Change All Privileged (Root.md) Passwords In 1 Hour?](/docs/security/root_passwords.md)                 |        |
+| [Are User Requests Tracked Via A Ticket System?](./public/tracking_user_requests/)                         |        |
+| [Are "The 3 Empowering Policies" Defined And Published?](./public/empowering_policies/)                    |        |
+| [Does The Team Record Monthly Metrics?](./public/recording_metrics/)                                       |        |
+| [Do You Have A "Policy And Procedure" Wiki?](./modern/polices_and_procedures/)                             |        |
+| [Do You Have A Password Safe?](./modern/password_safe/)                                                    |        |
+| [Is Your Team's Code Kept In A Source Code Control System?](./modern/source_code_control/)                 |        |
+| [Does Your Team Use A Bug-Tracking System For Their Own Code?](./modern/bug_tracking/)                     |        |
+| [In Bugs/Tickets Does Stability Have A Higher Priority Than New Features?](./modern/ticketing_priorities/) |        |
+| [Does Your Team Write "Design Docs?"](./modern/design_docs/)                                               |        |
+| [Do You Have A "Post-Mortem" Process?](./modern/post_mortem/)                                              |        |
+| [Does Each Service Have An Opsdoc?](./operational/opsdoc/)                                                 |        |
+| [Does Each Service Have Appropriate Monitoring?](./operational/monitoring/)                                |        |
+| [Do You Have A Pager Rotation Schedule?](./operational/pager_rotation/)                                    |        |
+| [Do You Have Separate Development, Qa, And Production Systems?](./operational/seperate_dev-qa-prod/)       |        |
+| [Do Roll-Outs To Many Machines Have A "Canary Process?"](./operational/canary_process/)                    |        |
+| [Do You Use Configuration Management Tools Like Ansible/Puppet/Chef?](./automation/config_management/)     |        |
+| [Do Automated Administration Tasks Run Under Role Accounts?](./automation/role_accounts/)                  |        |
+| [Do Automated Processes That Generate E-Mail Have Something To Say?](./automation/email_generation/)       |        |
+| [Is There A Database Of All Machines?](./fleet/database_of_machines/)                                      |        |
+| [Is Os Installation Automated?](./fleet/os_installations/)                                                 |        |
+| [Can You Automatically Patch Software Across Your Entire Fleet?](./fleet/patching/)                        |        |
+| [Do You Have A Pc Refresh Policy?](./fleet/pc_refresh_policy/)                                             |        |
+| [Can Your Servers Keep Operating Even If 1 Disk Dies?](./disaster_preperation/servers/)                    |        |
+| [Is The Network Core N+1?](./disaster_preperation/network/)                                                |        |
+| [Are Your Backups Automated?](./disaster_preperation/backups/)                                             |        |
+| [Are Your Disaster Recovery Plans Tested Periodically?](./disaster_preperation/testing/)                   |        |
+| [Do Machines In Your Data Center Have Remote Power/Console Access?](./disaster_preperation/remote_access/) |        |
+| [Do all Machines Run Self-Updating, Silent, Anti-Malware Software?](./security/antivirus/)                 |        |
+| [Do You Have A Written Security Policy?](./security/policy/)                                               |        |
+| [Do You Submit To Periodic Security Audits?](./security/audits/)                                           |        |
+| [Can A User's Account Be Disabled On All Systems In 1 Hour?](./security/disabling_users/)                  |        |
+| [Can You Change All Privileged (Root/) Passwords In 1 Hour?](./security/root_passwords/)                 |        |
